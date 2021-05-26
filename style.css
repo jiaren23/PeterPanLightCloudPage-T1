@@ -1,0 +1,272 @@
+*{
+    position: relative;  
+    list-style: none;
+    text-decoration: none;
+    /* text-align: center; */
+    box-sizing: border-box;
+    font-family: '微軟正黑體';
+    font-weight: 900;
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.title0{
+    text-align: center;
+}
+
+
+.title0 img{
+    width: 278px;
+    text-align: center;
+}
+
+a{
+    color:rgb(116, 108, 108) !important;
+}
+
+.bg-dark{
+   
+    background: rgb(255, 255, 255) !important;
+}
+.nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+
+.head{
+    background-image: url("banner.jpg");
+    text-align: center;
+    margin: auto;
+    height:30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h5{
+    color:#948073;
+    font-weight: 600;
+}
+
+.web-work{
+  
+    margin-bottom: 100px;
+}
+
+.design-box h3{
+    margin: 40px auto;
+}
+
+
+
+
+
+
+.design-work{
+    background-color: #AA565B;
+    /* background-image: url(../../asset/img/new_bgc.jpg); */
+    width: 100%;
+    /* margin:20px auto; */
+    padding: 5px 10px 5px;
+    color: #fff;
+}
+.design-box a{
+    border: solid 1px #666;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* contact arrow */
+.arrow{
+    animation: arrow 2s infinite;
+    color:rgb(116, 108, 108) !important;
+}
+@keyframes arrow{
+    0%{
+        opacity: 0.5;
+        
+    }
+    50%{
+        opacity: 1;
+        left: 5px;
+    }
+    100%{
+        opacity: 0.5;
+       
+    }
+}
+  
+
+.design-work{
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px){
+    .head{
+        background-image: url("banner.jpg");
+        max-width: 1600px;
+        /* margin-top: 80px; */
+        /* padding: 50px; */
+        text-align: center;
+        margin: auto;
+        height:70vh;
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .web-work{
+        display: flex;
+        max-width: 960px;
+        margin: auto;
+        /* border:solid 1px pink; */
+        margin-bottom: 200px;
+    }
+
+
+
+    .design-work .design-box{
+        margin: auto;
+        max-width: 960px;;
+    }
+  
+}
+
+@media screen and (max-width: 960px){
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+  
+
+  }
+
+
+
+
+
+
+  .lightbox{
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    /* border: solid 1px red; */
+}
+
+.cardbox{
+    width: 278px;
+    height: 225px;
+    /* background-color: #eee; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* border:solid 1px red; */
+    border-radius: 2px;
+    box-shadow:0px -2px 8px rgba(0,0,0,0.35);
+}
+
+.img img{
+    position: absolute;
+    width: 160px;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.img{
+    height: 100px;
+}
+
+.content{
+    margin: auto;
+    padding: auto;
+    width: 228px;
+    text-align: left;
+    /* border: solid 1px #eee; */
+}
+
+.content h3{
+    line-height:20px; 
+    font-size: 1.17em;
+    font-weight: 900;
+}
+
+.content p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.hr{
+    width: 2.75px;
+    height: 46px;
+    background-color: #AA565B;
+}
+
+.price{
+    /* border: solid 1px red; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* .number{
+    padding: 0 3px 0 3px;
+} */
+
+.price-list , .count{
+    width: 59%;
+    display: flex;
+   
+}
+
+.count{
+    width: 40%;
+    display: flex;
+}
+
+.price-list{
+    /* border: solid 2px black; */
+    line-height: 40px;
+    justify-content:flex-start;
+}
+
+.count{
+    justify-content:flex-end;
+    /* border: solid 1px #000; */
+}
+
+.notes{
+    width: 30px;
+}
+
+.add img, .less img{
+    width: 30px;
+}
+
+.add,.notes,.less ,.crrency,.dollar,.year{
+    /* border: solid 1px #000; */
+    padding: 5px 0 5px 5px;
+}
+
+.notes{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 1200;
+}
